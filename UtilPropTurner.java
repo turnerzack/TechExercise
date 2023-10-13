@@ -7,10 +7,10 @@ import java.io.FileNotFoundException;
 
 public class UtilPropTurner {
    static final boolean _W = System.getProperty("os.name").toLowerCase().contains("windows");
-   static String _PROP_FILENAME_WIN_LOCAL = "C:\\Users\\zackt\\workspaceCSCI4830-TechExercise\\webproject\\WebContent\\config.properties";
+   static String _PROP_FILENAME_WIN_LOCAL = "C:\\Users\\zackt\\workspaceCSCI4830-ex-0907-Turner\\webproject\\WebContent\\config.properties";
    static String _PROP_FILENAME_OSX_LOCAL = "/YOUR_PATH/webproject/WebContent/config.properties";
    // * Remote server path
-   static String _PROP_FILENAME_REMOTE = "/var/lib/tomcat9/webapps/workspaceCSCI4830-TechExercise/config.properties";
+   static String _PROP_FILENAME_REMOTE = "/var/lib/tomcat9/webapps/TechExercise/config.properties";
    static Properties prop = new Properties();
 
    public static void loadProperty() throws Exception {
